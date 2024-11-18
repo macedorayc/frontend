@@ -1,0 +1,37 @@
+.chamados-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .chamados-table th,
+  .chamados-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .chamados-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .chamados-table td button {
+    margin: 0 5px;
+  }
+  
+  .chamados-table td button:first-child {
+    background-color: #ffc107;
+  }
+  
+  .chamados-table td button:first-child:hover {
+    background-color: #e0a800;
+  }
+  
+  .chamados-table td button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .chamados-table td button:last-child:hover {
+    background-color: #c82333;
+  }
